@@ -1,0 +1,20 @@
+2019-03-02T17:55:35+00:00 CRITICAL Uncaught Error: Call to undefined function pr() in D:\wamp\www\transexim\wp-content\themes\business-point\woocommerce\content-product.php:29
+Stack trace:
+#0 D:\wamp\www\transexim\wp-includes\template.php(690): require()
+#1 D:\wamp\www\transexim\wp-content\plugins\woocommerce\includes\wc-core-functions.php(181): load_template('D:\\wamp\\www\\tra...', false)
+#2 D:\wamp\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(643): wc_get_template_part('content', 'product')
+#3 D:\wamp\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 D:\wamp\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(290): WC_Shortcode_Products->get_content()
+#5 D:\wamp\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(198): WC_Template_Loader::unsupported_theme_tax_archive_init()
+#6 D:\wamp\www\transexim\wp-includes\class-wp-hook.php(286): W in D:\wamp\www\transexim\wp-content\themes\business-point\woocommerce\content-product.php on line 29
+
+2019-03-02T18:08:16+00:00 CRITICAL Uncaught Error: Call to undefined function attribute_label() in D:\wamp\www\transexim\wp-content\themes\business-point\woocommerce\content-product.php:24
+Stack trace:
+#0 D:\wamp\www\transexim\wp-includes\template.php(690): require()
+#1 D:\wamp\www\transexim\wp-content\plugins\woocommerce\includes\wc-core-functions.php(181): load_template('D:\\wamp\\www\\tra...', false)
+#2 D:\wamp\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(643): wc_get_template_part('content', 'product')
+#3 D:\wamp\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 D:\wamp\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(290): WC_Shortcode_Products->get_content()
+#5 D:\wamp\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(198): WC_Template_Loader::unsupported_theme_tax_archive_init()
+#6 D:\wamp\www\transexim\wp-includes\class-wp-hoo in D:\wamp\www\transexim\wp-content\themes\business-point\woocommerce\content-product.php on line 24
+
