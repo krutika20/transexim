@@ -1,0 +1,15 @@
+/*
+Theme Name:     business-point-child
+Description:    Need to save custom data
+Author:         Krutika
+Template:       business-point
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+input[type="text"],input[type="email"]{
+	border-radius: .25rem;
+	color: #495057;
+	border: 1px solid #ced4da;
+	padding: .375rem .75rem;
+}

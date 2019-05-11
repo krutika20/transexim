@@ -161,10 +161,10 @@ function business_point_scripts() {
 
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/third-party/font-awesome/css/font-awesome.min.css', '', '4.7.0' );
 
-	wp_enqueue_style( 'business-point-style', get_stylesheet_uri() );
-
 	wp_register_style( 'bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css');
 	wp_enqueue_style('bootstrap');
+
+	wp_enqueue_style( 'business-point-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'business-point-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20151215', true );
 
