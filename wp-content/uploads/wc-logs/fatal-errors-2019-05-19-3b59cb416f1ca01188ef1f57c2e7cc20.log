@@ -1,0 +1,44 @@
+2019-05-19T09:52:24+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in E:\wamp64\www\transexim\wp-content\themes\business-point-child\woocommerce\content-product.php:15
+Stack trace:
+#0 E:\wamp64\www\transexim\wp-includes\template.php(690): require()
+#1 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\wc-core-functions.php(181): load_template('E:\\wamp64\\www\\t...', false)
+#2 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(643): wc_get_template_part('content', 'product')
+#3 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(290): WC_Shortcode_Products->get_content()
+#5 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(198): WC_Template_Loader::unsupported_theme_tax_archive_init()
+#6  in E:\wamp64\www\transexim\wp-content\themes\business-point-child\woocommerce\content-product.php on line 15
+
+2019-05-19T09:52:34+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in E:\wamp64\www\transexim\wp-content\themes\business-point-child\woocommerce\content-product.php:15
+Stack trace:
+#0 E:\wamp64\www\transexim\wp-includes\template.php(690): require()
+#1 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\wc-core-functions.php(181): load_template('E:\\wamp64\\www\\t...', false)
+#2 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(643): wc_get_template_part('content', 'product')
+#3 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(290): WC_Shortcode_Products->get_content()
+#5 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(198): WC_Template_Loader::unsupported_theme_tax_archive_init()
+#6  in E:\wamp64\www\transexim\wp-content\themes\business-point-child\woocommerce\content-product.php on line 15
+
+2019-05-19T10:05:04+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in E:\wamp64\www\transexim\wp-content\themes\business-point-child\woocommerce\content-product.php:15
+Stack trace:
+#0 E:\wamp64\www\transexim\wp-includes\template.php(690): require()
+#1 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\wc-core-functions.php(181): load_template('E:\\wamp64\\www\\t...', false)
+#2 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(643): wc_get_template_part('content', 'product')
+#3 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(290): WC_Shortcode_Products->get_content()
+#5 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(198): WC_Template_Loader::unsupported_theme_tax_archive_init()
+#6  in E:\wamp64\www\transexim\wp-content\themes\business-point-child\woocommerce\content-product.php on line 15
+
+2019-05-19T10:30:42+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Attribute::get_value() in E:\wamp64\www\transexim\wp-content\themes\business-point-child\woocommerce\content-product.php:18
+Stack trace:
+#0 E:\wamp64\www\transexim\wp-includes\template.php(690): require()
+#1 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\wc-core-functions.php(181): load_template('E:\\wamp64\\www\\t...', false)
+#2 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(643): wc_get_template_part('content', 'product')
+#3 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(290): WC_Shortcode_Products->get_content()
+#5 E:\wamp64\www\transexim\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(198): WC_Template_Loader::unsupported_theme_tax_archive_init()
+#6 E:\wamp64\ww in E:\wamp64\www\transexim\wp-content\themes\business-point-child\woocommerce\content-product.php on line 18
+
+2019-05-19T10:54:41+00:00 CRITICAL Object of class WP_Error could not be converted to string in E:\wamp64\www\transexim\wp-content\themes\business-point-child\woocommerce\content-product.php on line 18
+
+2019-05-19T12:00:46+00:00 CRITICAL syntax error, unexpected end of file in E:\wamp64\www\transexim\wp-content\themes\business-point-child\woocommerce\content-product.php on line 80
+

@@ -22,7 +22,7 @@
 	<div class="content-wrap border_title">
 		<div class="content-wrap-inner">
 			
-			<header class="entry-header">
+			<header class="entry-header" style="border-bottom: 2px dotted #1bbc9b;">
 				<h2 class="entry-title center_text"><?php the_title();?></h2>
 			</header><!-- .entry-header -->
 

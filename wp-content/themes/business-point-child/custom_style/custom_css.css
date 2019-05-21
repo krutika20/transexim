@@ -21,6 +21,35 @@
     box-shadow: 1px 4px 18px 0px rgba(0, 0, 0, 0.3);
 }
 
+.custom_container {
+	min-height: 84px;
+	padding:  12px;
+	padding-bottom: 0px;
+	box-sizing:  border-box;
+
+	margin-bottom:  16px;
+	text-align: left;
+    border-radius:  8px;
+    background: #f5f5f5;
+    box-shadow: 1px 4px 18px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 479px)
+{
+	#primary .post .content-wrap {
+		padding-left: 15px ;
+		padding-right: 15px;
+	}
+	#primary .post .content-wrap .custom_container
+	{
+		padding: 0px !important;
+	}
+}
+
+.custom_container table tbody tr td{
+	border: none;
+	margin-bottom: 10px;
+}
 
 .whyUs_container ul li strong {
 	width:  100%;
@@ -49,6 +78,11 @@
 	text-align: center;
 }
 
-.border_title{
+/* .border_title{
 	border-bottom: 2px dotted #1bbc9b;
+} */
+
+.custom_post{
+	border-bottom: 2px solid #1bbc9b!important;	
+	padding-bottom: 10px !important;
 }
